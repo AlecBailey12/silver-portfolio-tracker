@@ -44,7 +44,7 @@ on idle
 			set lastRefresh to current date
 			
 			-- Silver workbook has remained frontmost for 60 seconds
-		else if (currentTime - lastRefresh) ³ 60 then
+		else if (currentTime - lastRefresh) Â³ 60 then
 			
 			my refreshSilver()
 			set lastRefresh to current date
