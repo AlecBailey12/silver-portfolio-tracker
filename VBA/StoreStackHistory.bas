@@ -1,4 +1,4 @@
-Attribute VB_Name = "StoreStackValue"
+Attribute VB_Name = "StoreStackHistory"
 Sub StoreStackValue()
 
     Dim sourceWs As Worksheet
