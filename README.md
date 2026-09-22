@@ -1,7 +1,7 @@
 # Silver Portfolio Tracker
 A dynamic Excel dashboard for tracking physical silver bullion holdings, including relevant purchase information, cost basis, premiums, portfolio value, and performance trends. Uses VBA and AppleScript to automatically collect and update live spot-price data from an API.
 
-![Silver Portfolio Tracker](assets/silver-portfolio-dashboard.png?raw=true)
+![Silver Portfolio Tracker](assets/silver-portfolio-dashboard.png)
 
 ## Features
 
