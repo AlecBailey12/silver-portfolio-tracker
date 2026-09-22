@@ -3,8 +3,8 @@ on getSilverPrice(dummy)
 	set apiURL to "https://api.gold-api.com/price/XAG"
 	set jsonText to do shell script "/usr/bin/curl -s " & quoted form of apiURL
 	
-	set priceText to do shell script "/usr/bin/python3 -c " & quoted form of Â
-		"import json,sys; print(json.loads(sys.stdin.read())['price'])" & Â
+	set priceText to do shell script "/usr/bin/python3 -c " & quoted form of Ã‚
+		"import json,sys; print(json.loads(sys.stdin.read())['price'])" & Ã‚
 		" <<'EOF'" & linefeed & jsonText & linefeed & "EOF"
 	
 	return priceText
